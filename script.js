@@ -1,4 +1,4 @@
-const colaboradores = [
+let colaboradores = [
   {
     matricula: '1',
     nome: 'Lucas',
