@@ -11,6 +11,10 @@ let colaboradores = [
   },
 ];
 
+function definirColaboradores(novoColaboradores) {
+  colaboradores = novoColaboradores;
+}
+
 // Ação CREATE do CRUD
 function contratarColaborador() {}
 

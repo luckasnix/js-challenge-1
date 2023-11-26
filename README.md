@@ -29,7 +29,7 @@ Antes de começar o desafio em si, é necessário encontrar os métodos que pode
 
 O desafio simula a manipulação de dados referentes à lista de colaboradores de uma empresa. Os dados estão armazenados em um array de objetos chamado `colaboradores`. Cada item dessa array é um objeto que representa 1 colaborador, contendo as chaves `matricula` (o identificador do colaborador), `nome` (o nome do colaborador) e `cargo` (o cargo ocupado pelo colaborador na empresa).
 
-O desafio consiste em escrever as funções que serão responsáveis por manipular os dados da lista de colaboradores. São 4 funções e cada uma representa uma ação da CRUD.
+O desafio consiste em escrever as funções que serão responsáveis por manipular os dados da lista de colaboradores. São 4 funções e cada uma representa uma ação da CRUD. No final de cada operação, se for necessário fazer alguma alteração na array original (`colaboradores`), essa alteração não deve ser feita diretamente e sim com o auxílio da função `definirColaboradores`, que recebe o novo array que deve sobreescrever o antigo.
 
 A primeira é a `contratarColaborador` e representa o create da CRUD. Essa função deve receber `nome` e `cargo` como parâmetros, mas ela deve gerar a `matricula` internamente. Para gerar a `matricula`, a função deve considerar a posição que o novo colaborador vai assumir no array de colaboradores. Aqui é importante lembrar que o index no JavaScript começa pelo número 0, então a `matrícula` não é igual ao index, mas deriva dele.
 
